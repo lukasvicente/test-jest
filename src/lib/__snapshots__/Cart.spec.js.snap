@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart checkout() should return an object with the total  1`] = `
+Object {
+  "formatted": "R$3,025.56",
+  "items": Array [
+    Object {
+      "product": Object {
+        "price": 35388,
+        "title": "Adidas runnin shoes - men",
+      },
+      "quantity": 5,
+    },
+    Object {
+      "product": Object {
+        "price": 41872,
+        "title": "Adidas runnin shoes - women",
+      },
+      "quantity": 3,
+    },
+  ],
+  "total": Object {
+    "amount": 302556,
+    "currency": "BRL",
+    "precision": 2,
+  },
+}
+`;
